@@ -2,20 +2,20 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Google Search</title>
+  <title>Google Image Search</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div class="nav">
-    <a href="images.html">Image Search</a>
+    <a href="index.html">Google Search</a>
     <a href="advanced.html">Advanced Search</a>
   </div>
   <div class="search-container">
     <form action="https://www.google.com/search" method="get">
-      <input class="search-input" type="text" name="q" placeholder="Search Google" autofocus>
+      <input class="search-input" type="text" name="q" placeholder="Search images">
+      <input type="hidden" name="tbm" value="isch">
       <div class="search-buttons">
-        <input class="search-button" type="submit" name="btnK" value="Google Search">
-        <input class="search-button" type="submit" name="btnI" value="I'm Feeling Lucky">
+        <input class="search-button" type="submit" value="Google Image Search">
       </div>
     </form>
   </div>
